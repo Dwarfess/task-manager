@@ -12,7 +12,7 @@ Simple task manager, implemented on AngularJS.<br>
 ```
  cd task-manager
 ```
-5. Сommand to install dependencies from `package.json`
+5. Сommand to install dependencies from `package.json` (up to 10 minutes)
 ```
  npm install --save-dev
 ```
