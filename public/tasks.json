@@ -1,0 +1,91 @@
+[
+    {
+    "title":"Group A",
+    "tasks":[
+            {
+                "name": "Task A1",
+                "description": "It is necessary to solve this task"
+            },
+            {
+                "name": "Task A2",
+                "description": "It is necessary to solve this task"
+            },
+            {
+                "name": "Task A3",
+                "description": "It is necessary to solve this task"
+            },
+            {
+                "name": "Task A4",
+                "description": "It is necessary to solve this task"
+            },
+            {
+                "name": "Task A5",
+                "description": "It is necessary to solve this task"
+            },
+            {
+                "name": "Task A6",
+                "description": "It is necessary to solve this task"
+            }
+        ]
+    },
+    
+    {
+    "title":"Group B",
+    "tasks":[
+            {
+                "name": "Task B1",
+                "description": "It is necessary to solve this task"
+            },
+            {
+                "name": "Task B2",
+                "description": "It is necessary to solve this task"
+            },
+            {
+                "name": "Task B3",
+                "description": "It is necessary to solve this task"
+            },
+            {
+                "name": "Task B4",
+                "description": "It is necessary to solve this task"
+            },
+            {
+                "name": "Task B5",
+                "description": "It is necessary to solve this task"
+            },
+            {
+                "name": "Task B6",
+                "description": "It is necessary to solve this task"
+            }
+        ]
+    },
+    
+    {
+    "title":"Group C",
+    "tasks":[
+            {
+                "name": "Task C1",
+                "description": "It is necessary to solve this task"
+            },
+            {
+                "name": "Task C2",
+                "description": "It is necessary to solve this task"
+            },
+            {
+                "name": "Task C3",
+                "description": "It is necessary to solve this task"
+            },
+            {
+                "name": "Task C4",
+                "description": "It is necessary to solve this task"
+            },
+            {
+                "name": "Task C5",
+                "description": "It is necessary to solve this task"
+            },
+            {
+                "name": "Task C6",
+                "description": "It is necessary to solve this task"
+            }
+        ]
+    }
+]

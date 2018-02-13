@@ -1,0 +1,35 @@
+<div class = "groups">
+    <div class="panel-body panel group simpleDemo"  ng-repeat = "list in json track by $index">
+        <input type="button" class = "btn" value = "✖" ng-hide = "online.logged" ng-click = "deleteGroup($index)">
+        <h4><i class="fa fa-tasks" aria-hidden="true"></i> {{list.title}}</h4>
+        <ul dnd-list="list.tasks" 
+            dnd-dragover="dragover(index, external, type, callback)">
+
+            <li ng-repeat="item in list.tasks"
+                dnd-draggable="item"
+                dnd-moved="list.tasks.splice($index, 1); saveMoving();"
+                dnd-effect-allowed="move"
+                class="item panel"
+                ng-click = "show(item)">
+					
+                    <input type="button" class = "btn" value = "✖" ng-hide = "online.logged" ng-click = "deleteTask(item)">
+                    <p>{{item.name}}</p>
+                    <p>Due-date: <span>{{item.due_date| date:"dd.MM.yyyy"}}</span></p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+                <!--functions authorized users-->
+<div class="container" ng-hide = "online.logged">
+    <div class="usersFunctions panel">
+        <button class="btn-lg btn-default" ng-click="reset()">Reset to default <i class="fa fa-repeat" aria-hidden="true"></i>
+        </button>
+        <button class="btn-lg btn-default" ng-click="editOrCreate(null, 'table', 'create')">Create group <i class="fa fa-tasks" aria-hidden="true"></i>
+        </button>
+        <button class="btn-lg btn-default" ng-click="editOrCreate(null, 'table', 'edit', true)">Add task <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+        </button>
+    </div>
+</div> 
+
+
