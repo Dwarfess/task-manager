@@ -38,7 +38,7 @@ Simple task manager, implemented on AngularJS.<br>
    * Move the tasks from one group to another
    * View task information by clicking on the item
    * Correct task information ("Edit" button)
-   * Delete the tasks from the list ("cross" icon near the item or the "Delete" button at the info window)
+   * Delete the tasks from the group ("cross" icon near the item or the "Delete" button at the info window)
    * Delete the groups from the list ("cross" icon near the name of the group)
    * Add a new task (the "Add task" button at the main page)
    * Create a new group (the "Create group" button at the main page)
